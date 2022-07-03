@@ -14,3 +14,11 @@ closeElem.addEventListener('click', () => {
 overlay.addEventListener('click', () => {
     menu.classList.remove('menu_active');
 });
+
+const counters = document.querySelectorAll('.usage__ratings-counter'),
+      lines = document.querySelectorAll('.usage__ratings-line span');
+
+counters.forEach( (item, i) => {
+    lines[i].style.width = item.innerHTML;
+});
+

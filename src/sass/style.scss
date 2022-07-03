@@ -1,5 +1,5 @@
 @import 'libs/bootstrap-reboot.min';
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500;700&display=swap');
+@import url(https://fonts.googleapis.com/css?family=Poppins:100,100italic,200,200italic,300,300italic,regular,italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic);
 
 
 
@@ -23,7 +23,7 @@
 width: 60px;
 height: 3px;
 background-color: $main-color;
-margin-top: 25px;
+margin: 25px auto 0 auto;
 }
 
 
@@ -33,3 +33,5 @@ margin-top: 25px;
 @import 'blocks/sidepanel';
 @import 'blocks/menu';
 @import 'blocks/about';
+@import 'blocks/resume';
+@import 'blocks/usage';
